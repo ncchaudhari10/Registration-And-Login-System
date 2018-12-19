@@ -1,0 +1,18 @@
+{
+  "name": "ihs-api",
+  "version": "1.0.0",
+  "description": "Identity Hosting Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niraj Chaudhari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mssql": "^4.3.0"
+  }
+}
