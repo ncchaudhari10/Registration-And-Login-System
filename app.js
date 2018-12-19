@@ -21,7 +21,7 @@ app.use(function (req, res, next) {
 
 app.get('/',(req,res)=>{
 
-    res.send("Hello And Welcome to IHS");
+    res.send("Hello And Welcome");
 
 });
 
