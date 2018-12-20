@@ -3,10 +3,10 @@ const sql= require('mssql');
 // data base config
 var dbConfig = {
     user: "Neeraj",
-    password: "147852369",
-    server: "192.168.31.168",
+    password: "************",       // password
+    server: "*************",       // Server
     database: "IHS",
-    port:50612
+    port:******                    // port
 
 };
 
