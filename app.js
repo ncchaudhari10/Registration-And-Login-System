@@ -7,7 +7,7 @@ const ejs = require('ejs');
 const register = require('./routes/Register');
 const login = require('./routes/Login');
 const Delete = require('./routes/Delete');
-const Update= require('./routes/Update');
+
 
 
 app.set('view engine', 'ejs');
@@ -28,7 +28,7 @@ app.get('/',(req,res)=>{
 app.use('/Register', register);
 app.use('/Login', login);
 app.use('/Delete',Delete);
-app.use('/Update',Update);
+
 
 
 // middlewares body-parser
